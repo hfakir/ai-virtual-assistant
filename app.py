@@ -9,13 +9,13 @@ if st.button("Generate"):
     text = user_input.lower()
 
     # Email
-    if "email" in text or "mail" in text or "email" in text:
+    if "email" in text or "mail" in text or "ايميل" in text or "رسالة" in text:
         if "fr" in text or "écris" in text:
-            response = "Bonjour,\n\nJ'espère que vous allez bien. Je voulais vous informer que le projet sera livré bientôt.\n\nCordialement,\nHicham"
-        elif "arab" in text or "اكتب" in text:
-            response = "مرحبًا،\n\nأتمنى أن تكون بخير. أود إبلاغك أن المشروع سيتم تسليمه قريبًا.\n\nمع تحياتي،\nهشام"
+            response = "Bonjour,\n\nJ'espère que vous allez bien. Je voulais vous informer que le projet sera livré bientôt.\n\nCordialement"
+        elif "ايميل" in text or "رسالة" in text:
+            response = "مرحبا،\n\nأتمنى أن تكون بخير. أود إبلاغك أن المشروع سيتم تسليمه قريباً.\n\nمع تحياتي"
         else:
-            response = "Dear Client,\n\nI hope you're doing well. I wanted to inform you that the project will be delivered soon.\n\nBest regards,\nHicham"
+            response = "Dear Client,\n\nI hope you're doing well. I wanted to inform you that the project will be delivered soon.\n\nBest regards"
 
     # Price
     elif "price" in text or "prix" in text or "ثمن" in text:
