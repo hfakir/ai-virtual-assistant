@@ -7,7 +7,6 @@ This project is a simple AI-powered virtual assistant built using **Python** and
 - ✉️ Generate professional emails
 - 💬 Reply to client messages
 - 📅 Organize daily tasks
-- 📄 Create freelance proposals
 
 ## 🛠️ Technologies Used
 
