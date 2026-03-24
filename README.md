@@ -20,7 +20,8 @@ This project demonstrates how AI can assist freelancers and professionals in man
 
 ## 📸 Demo
 
-(You can add a screenshot here later)
+<img width="1200" height="700" alt="demo_ai_app" src="https://github.com/user-attachments/assets/4764e372-0cb9-498b-8807-9a5825477022" />
+
 
 ## 🌐 Live App
 
